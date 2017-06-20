@@ -27,6 +27,7 @@ It will download all webdriver latest version and default chrome driver.
 Step 4:
 Setup "protractor-jasmine2-screenshot-reporter” (Reporter for Protractor that will capture screenshots after each it() block and stores the results in a HTML format.). 
 You just have to RUN "$ npm install protractor-jasmine2-screenshot-reporter --save-dev” in command prompt.
+
 Reference: https://www.npmjs.com/package/protractor-jasmine2-screenshot-reporter
 
 Now installation part is done successfully.
