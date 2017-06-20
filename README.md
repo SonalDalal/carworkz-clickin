@@ -98,10 +98,8 @@ This needs to be running for any tests to be able to run.
 Protractor is highly customisable to be able to use a wide range of reporters. In my example, I am using Jasmine-Spec-Reporter -
 https://www.npmjs.com/package/jasmine-spec-reporter
 We set up the reporter package as a local folder and, if using Git, you may want to add this to your .gitignore file to avoid pushing a whole bunch of junk to your branch.
-From the terminal, navigate to your project folder and run the following commands:
-# The command npm init creates a package.json file which contains a list of required dependencies
-$ npm init
-# To add dependencies you need to install in order to run tests, we use the --save option during package installation
+From the terminal, navigate to your project folder and run the following commands: # The command npm init creates a package.json file which contains a list of required dependencies
+$ npm init, # To add dependencies you need to install in order to run tests, we use the --save option during package installation
 $ npm install jasmine-spec-reporter --save
 
 4.	Adding a reporter to your conf.js file
